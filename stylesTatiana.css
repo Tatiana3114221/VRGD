@@ -1,0 +1,25 @@
+p{
+color: #4711AE;
+font-weight: 900;
+}
+h2 {
+font-size: 1.8em;
+background-color: #AE9CE8;
+padding: 10px 10px 10px 10px;
+margin: 0 0 0 50px;
+}
+body {
+padding: 0 5px;
+background-image: url(./images/Tt.svg);
+}
+.red1 {
+color: red;
+}
+#blue1 {
+color:blue;
+font-size: 1.2em;
+}
+h1 {
+padding: 10px 0;
+font-size: 4em;
+}
