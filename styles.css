@@ -1,0 +1,121 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+	background-color: #D1C0DB;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+/* простой двухколончный макет  */
+body {
+	color:;
+	font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 115px;
+  background: #ABE6E2 url(images/g1.svg) repeat-x;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.main {
+	float: left;
+	width: 70%;
+	color: #48036F;
+	background-color: #CDB4DB;
+}
+.sidebar {
+	margin-left: 75%;
+	padding: 15px;
+	background: #C47FA6;
+	color: #3B015B;
+}
+h1 {
+	font-size: 3em;
+	font-family: "Arial Black", Arial, sans-serif;
+	margin-bottom: 15px;
+	color: #2C867F;
+}
+h2{
+	font-size: 2.2em;
+	color: #6BBEB8;
+	margin-bottom: 5px
+}
+.main h2 {
+	color: #C75459;
+	border-bottom: 2px #811B20 solid;
+	background: url(images/R1.svg) no-repeat;
+	padding: 0 0 2px 80px;
+}
+/*
+.sidebar *{
+	padding: 15px;
+	background: #88496D;
+	margin-left: 75%;
+}
+
+h1, h2 {
+	font-size: 2.2em;
+	color: #59183C;
+}*/
+a {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: #52C2C2;
+	font-size: 1.em;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #ECC29F;
+	
+}
+.main p{
+	font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #C7484F;
+}
+.main .intro {
+	color: #572040
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	margin-left: 0;
+	margin-bottom: 15px;
+}
+/*
+html body p {
+	background: #E5BFD4;
+}
+html p {
+	background: pink;
+}
+.sidebar h2 {
+	color: #B32977;
+}*/
