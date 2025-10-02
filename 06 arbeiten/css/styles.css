@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansRegular.woff2') format('woff2'),
+       url('fonts/PTSansRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansItalic.woff2') format('woff2'),
+       url('fonts/PTSansItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansBold.woff2') format('woff2'),
+       url('fonts/PTSansBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('fonts/PTSansBoldItalic.woff2') format('woff2'),
+       url('fonts/PTSansBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+  /* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+html {
+	font-family: PTSans, sans-serif;
+	font-size: 62.5%;
+	background: #BBB0EB url(../images/A.svg) repeat-x;
+}
+.main {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	border: 4px solid white;
+	
+	
+}
+.main h1 {
+	color: #B37AED;
+	font-family: "Arial Black", sans-sirif;
+	font-size: 4em;
+	text-shadow: 4px 4px 6px rgba(0,0,0,.75);
+}
+.main h1 strong{
+	font-size: 150px;
+	color: #DBA3E3;
+	line-height: 1;
+	text-shadow: 4px 4px 6px #46939A;
+}
+.main h2{
+	font-family: "Montserrat Underline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal 3.5em;
+  color: #3599CF;
+  border-bottom: 1px solid;
+  margin-top: 25px;
+  font-size: 1.8em;
+} .main h3 {
+	color: #007A46;
+	font-size: 1.9em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.main p{
+	font-size: 1.8em;
+	line-height: 1.5;
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+}
+.main p::first-line {
+	font-weight: bold;
+	color: #762881;
+}
+.main ul {
+	margin: 50px 0 25px 50px;
+	width: 25%;
+	float: right;
+}
+.main li {
+	color: #3BBCBC;
+	font-size: 1.5em;
+	margin-bottom: 7px;
+}
+.main .byline {
+	font-size: 1.6em;
+	margin: 5px 0 25px 50px;
+}
+.main .byline strong {
+	color: #11597F;
+	text-transform: uppercase;
+	margin-left: 11px;
+}
+.submain h2 {
+	font-family: "Montserrat Underline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: white;
+  font-size: 4em;
+}
+.submain strong {
+	font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
